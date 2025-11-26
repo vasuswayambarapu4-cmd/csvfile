@@ -1,0 +1,20 @@
+📊 Basic Data Overview
+print(df.info())
+print(df.describe())
+
+📌 2. Use groupby(), sum() for analysis
+✔️ Total sales by product
+sales_by_product = df.groupby("Product")["Sales"].sum()
+print(sales_by_product)
+✔️ Total sales by month
+sales_by_month = df.groupby("Month")["Sales"].sum()
+print(sales_by_month)
+
+📈 3. Visualize the results (Charts)
+📊 Bar chart — Sales by Product
+plt.figure(figsize=(8,5))
+sales_by_product.plot(kind="bar")
+plt.title("Total Sales by Product")
+plt.xlabel("Product")
+plt.ylabel("Sales")
+plt.show()
