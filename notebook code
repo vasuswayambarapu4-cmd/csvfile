@@ -1,0 +1,21 @@
+📌 Objective
+
+Analyze sales data using Pandas and generate charts.
+
+🛠 Tools
+
+Python
+
+Pandas
+
+Matplotlib
+
+Jupyter Notebook / Google Colab
+📓 Complete Notebook Code (Copy–Paste into Jupyter/Colab)
+# Task 5 – Data Analysis on CSV Files
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 1. Load CSV file
+df = pd.read_csv("sales_data.csv")   # Replace with your file name
+df.head()
