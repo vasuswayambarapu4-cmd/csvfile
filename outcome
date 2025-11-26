@@ -1,0 +1,17 @@
+📉 Line chart — Sales Trend by Month
+plt.figure(figsize=(8,5))
+sales_by_month.plot(kind="line", marker="o")
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.grid(True)
+plt.show()
+
+🎯 Outcome
+
+You will learn:
+
+✔️ Reading CSV files with Pandas
+✔️ Using groupby(), sum() for aggregations
+✔️ Creating charts with Matplotlib
+✔️ Gaining insights from real-world sales data
